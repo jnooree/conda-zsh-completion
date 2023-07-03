@@ -5,7 +5,7 @@
 #
 # Author: Valentin Haenel <valentin@haenel.co>  (https://github.com/esc/)
 # Licence: WTFPL (http://sam.zoy.org/wtfpl/)
-# Version: 0.10-dev
+# Version: 0.11-dev
 # Homepage: https://github.com/esc/conda-zsh-completion
 # Demo: https://asciinema.org/a/16516
 #
@@ -77,9 +77,14 @@
 #
 # CHANGELOG
 # ---------
+#
 # * v0.10
 #
 #   * Search environments in custom environments paths, thanks to Thomas G. (coldfix).
+#   * Naive mamba support, thanks to olegtarasov
+#   * Remove path prefix from environments in default location, thanks to 3mb3dw0rk5
+#   * Sort environments to be completed by creation time, thanks to m-novikov
+#   * Check for environment directory before accessing, thanks to huyz-git
 #
 # * v0.9
 #
